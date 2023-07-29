@@ -1,0 +1,45 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--slate);
+  line-height: 1.5;
+  background-color: var(--white);
+}
+
+p {
+  color: var(--slate);
+}
+
+h1 {
+  font-size: 56px;
+  font-weight: 700;
+  color: var(--white);
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--navyblue);
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--navyblue);
+}
+
+:root {
+  --navyblue: #2e2f42;
+  --slate: #434455;
+  --cloud: #f4f4fd;
+  --iris: #4d5ae5;
+  --cornflower: #e7e9fc;
+  --ocean: #404bbf;
+  --white: #fff;
+}
+.ActiveLink:hover,
+.ActiveLink:focus {
+  color: var(--iris);
+}
+ul > li > button {
+  cursor: pointer;
+}
