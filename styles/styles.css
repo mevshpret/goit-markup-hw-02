@@ -2,7 +2,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: var(--slate);
   line-height: 1.5;
-  background-color: var(--white);
+  background-color: #ffffff;
 }
 
 p {
