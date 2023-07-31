@@ -1,32 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--slate);
-  line-height: 1.5;
   background-color: #ffffff;
 }
-
-p {
-  color: var(--slate);
-}
-
-h1 {
-  font-size: 56px;
-  font-weight: 700;
-  color: var(--white);
-}
-
-h2 {
-  font-size: 36px;
-  font-weight: 700;
-  color: var(--navyblue);
-}
-
-h3 {
-  font-size: 20px;
-  font-weight: 500;
-  color: var(--navyblue);
-}
-
 :root {
   --navyblue: #2e2f42;
   --slate: #434455;
@@ -36,10 +11,131 @@ h3 {
   --ocean: #404bbf;
   --white: #fff;
 }
-.ActiveLink:hover,
-.ActiveLink:focus {
-  color: var(--iris);
+
+.list {
+  list-style: none;
 }
-ul > li > button {
-  cursor: pointer;
+
+/* HEADER */
+
+.weblogo {
+  color: var(--iris);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.cornflower {
+  color: var(--navyblue, #2e2f42);
+}
+
+.navigation > a {
+  color: var(--iris, #4d5ae5);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.list {
+  list-style: none;
+}
+
+.adressref {
+  font-style: normal;
+}
+
+nav > ul > li {
+  text-decoration: none;
+}
+
+/* Section 1 */
+.sectionbckg {
+  background-color: var(--navyblue);
+}
+
+.sectionbckg > h1 {
+  font-family: Roboto;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 107.143% */
+  letter-spacing: 1.12px;
+  text-align: center;
+}
+
+.buttons {
+  border-radius: 4px;
+  background: var(--iris, #4d5ae5);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.buttons:hover,
+.buttons:focus {
+  background-color: var(--ocean);
+}
+
+/* Section 2 */
+.benefitshead {
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 111.111% */
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  color: var(--navyblue);
+}
+
+/* Section 3  */
+
+.header2 {
+  color: var(--navyblue, #2e2f42);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 111.111% */
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+/* Section 4 */
+.section-team {
+  background-color: #f4f4fd;
+}
+
+.header3 {
+  color: var(--navyblue);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.4px;
+}
+
+.localparagraph {
+  color: var(--slate, #434455);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+/* footer */
+.pagefooter {
+  background-color: var(--navyblue);
 }
