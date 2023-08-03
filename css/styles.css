@@ -212,12 +212,17 @@ letter-spacing: 0.02em;
 
    /* Main */
    .button-order {
-    color: var(--white, #FFF);
+    color: var(--white);
 text-align: center;
-font-family: "Roboto";
+font-family: "Roboto", sans-serif;
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.64px;
+background-color: #F4F4FD;
+cursor: pointer;
    }
+  .button-order:hover, .button-order:focus {
+    background-color: #404BBF;
+  }
