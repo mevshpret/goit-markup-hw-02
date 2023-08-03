@@ -176,7 +176,7 @@ cursor: pointer;
   font-style: normal;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
 }
 
 .text {
@@ -206,3 +206,18 @@ letter-spacing: 0.02em;
 .footer-selector {
   color: #f4f4fd;
 }
+
+/* Portfolio Tab
+   Dedicated Styles */
+
+   /* Main */
+   .button-order {
+    color: var(--white, #FFF);
+text-align: center;
+font-family: "Roboto";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.64px;
+   }
