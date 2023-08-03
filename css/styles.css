@@ -195,6 +195,10 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
+.team-card-background {
+  background-color:#FFFFFF;
+}
+
 .footer-selector {
   color: #f4f4fd;
 }
@@ -204,7 +208,7 @@ letter-spacing: 0.02em;
 
    /* Main */
    .button-order {
-    color: var(--white);
+    color: var(--iris);
 text-align: center;
 font-family: "Roboto", sans-serif;
 font-size: 16px;
@@ -215,6 +219,7 @@ letter-spacing: 0.64px;
 background-color: #F4F4FD;
 cursor: pointer;
    }
+
   .button-order:hover, .button-order:focus {
     background-color: #404BBF;
   }
@@ -222,7 +227,7 @@ cursor: pointer;
 
   /* misc */
   
-.addressref > li a {
+.adress-list {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate)
