@@ -171,7 +171,7 @@ cursor: pointer;
 .caption {
   color: var(--navyblue);
   text-align: center;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
