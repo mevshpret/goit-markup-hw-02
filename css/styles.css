@@ -97,6 +97,12 @@ line-height: 24px; /* 150% */
 letter-spacing: 0.32px;
 }
 
+.addressref > li a {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate)
+}
+
 /* Section 1 */
 .sectionbckg {
   background-color: var(--navyblue);
