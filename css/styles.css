@@ -42,7 +42,7 @@ body {
 }
 
 .navigation > ul a {
-  color: var(--navyblue);
+  color: var(--slate);
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
