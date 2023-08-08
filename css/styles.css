@@ -21,15 +21,15 @@ body {
   text-decoration: none;
 }
 
-.link:hover, .link:focus {
-color: #404bbf;
-
+.link:hover,
+.link:focus {
+  color: #404bbf;
 }
 
 /* HEADER */
 
 .navigation > a {
-   color: var(--iris);
+  color: var(--iris);
   font-family: "Raleway";
   font-size: 18px;
   font-style: normal;
@@ -43,12 +43,12 @@ color: #404bbf;
 
 .navigation > ul a {
   color: var(--navyblue);
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 24px; /* 150% */
-letter-spacing: 0.32px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
 }
 
 .weblogo {
@@ -68,13 +68,18 @@ letter-spacing: 0.32px;
   color: var(--navyblue, #2e2f42);
 }
 
-
 .list {
   list-style: none;
 }
 
 .addressref {
   font-style: normal;
+}
+
+.addressref .list {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
 }
 
 .menu {
@@ -87,12 +92,10 @@ letter-spacing: 0.32px;
   cursor: pointer;
 }
 
-
-
 .addressref > li a {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--slate)
+  color: var(--slate);
 }
 
 /* Section 1 */
@@ -113,14 +116,14 @@ letter-spacing: 0.32px;
 
 .button {
   color: var(--white);
-font-family: "Roboto", sans-serif;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 24px; /* 150% */
-letter-spacing: 0.64px;
-background-color: #4D5AE5;
-cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+  background-color: #4d5ae5;
+  cursor: pointer;
 }
 
 .button:hover,
@@ -187,16 +190,16 @@ cursor: pointer;
 
 .footer-text {
   color: var(--cloud);
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 1.5;
-letter-spacing: 0.02em;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .team-card-background {
-  background-color:#FFFFFF;
+  background-color: #ffffff;
 }
 
 .footer-selector {
@@ -206,28 +209,28 @@ letter-spacing: 0.02em;
 /* Portfolio Tab
    Dedicated Styles */
 
-   /* Main */
-   .button-order {
-    color: var(--iris);
-text-align: center;
-font-family: "Roboto", sans-serif;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.64px;
-background-color: #F4F4FD;
-cursor: pointer;
-   }
+/* Main */
+.button-order {
+  color: var(--iris);
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  background-color: #f4f4fd;
+  cursor: pointer;
+}
 
-  .button-order:hover, .button-order:focus {
-    background-color: #404BBF;
-    color: #FFFFFF;
-  }
+.button-order:hover,
+.button-order:focus {
+  background-color: #404bbf;
+  color: #ffffff;
+}
 
+/* misc */
 
-  /* misc */
-  
 .adress-list {
   line-height: 1.5;
   letter-spacing: 0.02em;
