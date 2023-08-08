@@ -222,6 +222,7 @@ cursor: pointer;
 
   .button-order:hover, .button-order:focus {
     background-color: #404BBF;
+    color: #FFFFFF;
   }
 
 
@@ -230,5 +231,6 @@ cursor: pointer;
 .adress-list {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--slate)
+  color: var(--slate);
+  color: #434455;
 }
