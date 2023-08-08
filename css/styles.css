@@ -93,11 +93,6 @@ body {
   color: var(--slate);
 }
 
-.link:hover,
-.link:focus {
-  color: #404bbf;
-}
-
 /* Section 1 */
 .sectionbckg {
   background-color: var(--navyblue);
@@ -236,4 +231,9 @@ body {
   letter-spacing: 0.02em;
   color: var(--slate);
   color: #434455;
+}
+
+.link:hover,
+.link:focus {
+  color: #404bbf;
 }
