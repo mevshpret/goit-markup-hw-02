@@ -233,7 +233,6 @@ body {
   color: #434455;
 }
 
-.link:hover,
-.link:focus {
+.addressref .list .link {
   color: #404bbf;
 }
