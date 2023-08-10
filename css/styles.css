@@ -46,7 +46,7 @@ body {
 }
 
 .navigation ul a {
-  color: #434455;
+  color: var(--navyblue);
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
