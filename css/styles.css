@@ -109,7 +109,7 @@ body {
 }
 
 .addressref .list .link {
-  color: #404bbf;
+  color: var(--slate);
 }
 
 /* Section 1 */
