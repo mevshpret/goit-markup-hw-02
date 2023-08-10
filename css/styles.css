@@ -46,7 +46,7 @@ body {
 }
 
 .navigation > ul a {
-  color: var(--slate);
+  color: #434455;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
@@ -109,7 +109,7 @@ body {
 }
 
 .addressref .list .link {
-  color: var(--slate);
+  color: #404bbf;
 }
 
 /* Section 1 */
