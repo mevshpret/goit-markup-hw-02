@@ -21,6 +21,11 @@ body {
   text-decoration: none;
 }
 
+.link:hover,
+.link:focus {
+  color: #404bbf;
+}
+
 /* HEADER */
 
 .navigation > a {
@@ -91,6 +96,16 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
+}
+
+.adress-list {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+.addressref .list .link {
+  color: #404bbf;
 }
 
 /* Section 1 */
@@ -225,14 +240,3 @@ body {
 }
 
 /* misc */
-
-.adress-list {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--slate);
-  color: #434455;
-}
-
-.addressref .list .link {
-  color: #404bbf;
-}
