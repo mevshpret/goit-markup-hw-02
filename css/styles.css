@@ -28,6 +28,19 @@ body {
 
 /* HEADER */
 
+.weblogo {
+  color: var(--iris);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+}
+
 .list .adress-list {
   color: var(--slate);
 }
@@ -40,19 +53,6 @@ body {
   font-weight: 500;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
-}
-
-.weblogo {
-  color: var(--iris);
-  font-family: "Raleway";
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-family: "Raleway", sans-serif;
 }
 
 .studioselector {
