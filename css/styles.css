@@ -28,8 +28,12 @@ body {
 
 /* HEADER */
 
+.list .adress-list {
+  color: var(--slate);
+}
+
 .navigation > ul a {
-  color: var(--navyblue);
+  color: #434455;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
@@ -69,6 +73,16 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
+}
+
+.adress-list {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+.addressref .list .link {
+  color: #404bbf;
 }
 
 .addressref .link:hover,
