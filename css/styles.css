@@ -28,6 +28,10 @@ body {
 
 /* HEADER */
 
+.list .adress-list {
+  color: var(--slate);
+}
+
 .navigation > a {
   color: var(--iris);
   font-family: "Raleway";
@@ -42,7 +46,7 @@ body {
 }
 
 .navigation > ul a {
-  color: var(--navyblue);
+  color: var(--slate);
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
