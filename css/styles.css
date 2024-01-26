@@ -1,0 +1,97 @@
+body {
+font-family: 'Roboto', sans-serif;
+color: #434455;
+}|
+
+ul {
+list-style-type: none;
+}
+/* ====================== */
+/* ===========HEADER=========== */
+.page-header {
+    background:  #FFF;
+}
+.page-navigation {
+}
+.logo {
+}
+.header-list {
+}
+.header-list-item {
+}
+.page-address {
+}
+.adddress-list {
+}
+.adddress-list-item {
+}
+.address-contacts {
+}
+
+/* ====================== */
+/* ===========HERO=========== */
+
+.hero {
+}
+.hero-title {
+}
+.title {
+}
+.hero-btn {
+}
+.benefits {
+}
+.benefits-title {
+}
+.h2 {
+}
+.benefits-list {
+}
+.benefits-list-item {
+}
+.benefits-subtitle {
+}
+.benefits-text {
+}
+
+/* ====================== */
+/* ===========TEAM=========== */
+
+.team {
+}
+.team-title {
+}
+.team-list {
+}
+.team-list-item {
+}
+.team-subtitle {
+}
+.team-text {
+}
+
+/* ====================== */
+/* ===========PORTFOLIO=========== */
+
+.portfolio {
+}
+.portfolio-list {
+}
+.portfolio-list-item {
+}
+.portfolio-subtitle {
+}
+.portfolio-text {
+}
+
+/* ====================== */
+/* ===========FOOTER=========== */
+
+.page-footer {
+}
+.logo-white {
+}
+.footer-text {
+}
+
+/* ====================== */
